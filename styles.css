@@ -13,10 +13,18 @@ font-family: Georgia, 'Times New Roman', Times, serif;}
 background-color: burlywood;
 font-family:Georgia, 'Times New Roman', Times, serif ;}
 .chart {  
-    width: 25%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
-    border: 5px solid #ddd;
+    border: 5px solid #da3b3b;
+    padding: 10px;
+    text-align: left;
+    border-color: black;}
+td{
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 5px solid #da3b3b;
     padding: 10px;
     text-align: left;
     border-color: black;}
