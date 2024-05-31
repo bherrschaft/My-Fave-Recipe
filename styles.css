@@ -6,6 +6,7 @@ font-size: large;
 }
 .recipeimg { display: flex;
     justify-content: center;}
+    .love {text-align: center;}
 #directions { color: black;
 background-color: burlywood;
 font-family: Georgia, 'Times New Roman', Times, serif;}
