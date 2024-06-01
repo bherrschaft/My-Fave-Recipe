@@ -9,19 +9,22 @@ font-size: large;
 .directions { color: black;
 background-color: burlywood;
 font-family: Georgia, 'Times New Roman', Times, serif;}
+.hdirections {display: flex;
+justify-content: center;}
 .ingredients {color: black;
 background-color: burlywood;
 font-family:Georgia, 'Times New Roman', Times, serif ;
 }
-.chart {  
+.chart { 
     width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
     border: 5px solid #da3b3b;
-    padding: 10px;
+    padding: px;
     text-align: left;
-    border-color: black;}
-td{
+    border-color: black;
+margin-left: 165px;}
+td{ 
     width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
