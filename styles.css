@@ -1,18 +1,18 @@
-#index1 {font-family: Georgia, 'Times New Roman', Times, serif;
+.index1 {font-family: Georgia, 'Times New Roman', Times, serif;
 color: black;
 background-color:burlywood;
 font-size: large;
-
 }
 .recipeimg { display: flex;
     justify-content: center;}
     .love {text-align: center;}
-#directions { color: black;
+.directions { color: black;
 background-color: burlywood;
 font-family: Georgia, 'Times New Roman', Times, serif;}
-#ingredients {color: black;
+.ingredients {color: black;
 background-color: burlywood;
-font-family:Georgia, 'Times New Roman', Times, serif ;}
+font-family:Georgia, 'Times New Roman', Times, serif ;
+}
 .chart {  
     width: 50%;
     border-collapse: collapse;
@@ -87,8 +87,10 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 .container2 { display: flex;
-flex-direction: column;}
+flex-direction: column;
+justify-content: space-around ;}
 .navbar { font-family: Georgia, 'Times New Roman', Times, serif;
-
+display: flex;
+justify-content: space-around;
 }
 .navbar a { color:black;}
