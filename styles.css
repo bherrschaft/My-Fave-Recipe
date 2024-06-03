@@ -5,7 +5,9 @@ font-size: large;
 }
 .recipeimg { display: flex;
     justify-content: center;}
-    .love {text-align: center;}
+    .love {text-align: center;
+        max-width: 100%;
+        height: auto;}
 .directions { color: black;
 background-color: burlywood;
 font-family: Georgia, 'Times New Roman', Times, serif;}
@@ -42,7 +44,6 @@ body.form-page {
     height: 100vh;
     margin: 0;
 }
-
 .container {
     width: 600px;
     background-color: burlywood;
@@ -50,22 +51,18 @@ body.form-page {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
 h1 {
     text-align: center;
     color: #333;
 }
-
 .form {
     display: flex;
     flex-direction: column;
 }
-
 label {
     font-weight: bold;
     margin-bottom: 5px;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -75,7 +72,6 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -85,7 +81,6 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 16px;
 }
-
 input[type="submit"]:hover {
     background-color: #45a049;
 }
@@ -97,3 +92,17 @@ display: flex;
 justify-content: space-around;
 }
 .navbar a { color:black;}
+@media (max-width: 767px) { 
+    .recipeimg img{max-width: 300px;} .container {max-width: 300px;}
+}
+    
+
+    
+@media (min-width: 768px) and (max-width: 991px) { 
+    .recipeimg img{max-width: 400px;} .container{max-width: 400px;}
+}
+    
+@media (min-width: 992px) { 
+    .recipeimg img{max-width: 400px;}
+}
+   
